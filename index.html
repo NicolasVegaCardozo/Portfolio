@@ -25,7 +25,7 @@
                     <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
                     <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
                     <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    <!--<li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>-->
                 </ul>
             </nav>
             <div class="nav-responsive">
@@ -43,7 +43,8 @@
             <h1>Nicolás Vega Cardozo</h1>
             <h2>Desarrollador Web Frontend</h2>
             <div class="redes">
-                <a href="https://www.linkedin.com/in/nicol%C3%A1s-vega-cardozo-b30a1a114/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/nicol%C3%A1s-vega-cardozo-b30a1a114/"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
                 <a href="https://github.com/NicolasVegaCardozo"><i class="fa-brands fa-github"></i></a>
                 <a href="https://www.freecodecamp.org/laenedenico"><i class="fa-brands fa-free-code-camp"></i></a>
             </div>
@@ -53,9 +54,10 @@
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
             <h2>Sobre Mí</h2>
-            <p><span>Hola, soy Nicolás</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam unde
-                soluta minima necessitatibus, voluptas consectetur vero officiis quas, explicabo deleniti repellendus
-                aliquid debitis maiores numquam voluptate reprehenderit in delectus dolores.</p>
+            <p><span>Hola, soy Nicolás</span> Soy desarrollador web, apasionado por la programación y las nuevas
+                tecnologías. Soy de Argentina, vivo en la ciudad de Buenos Aires. Tengo conocimientos en HTML, CSS,
+                SCSS, GIT, Javascript, NodeJS, jQuery y React. Actualmente, estoy realizando el curso de Programación Backend en
+                Coderhouse. </p>
 
 
 
@@ -75,10 +77,6 @@
                         <li>
                             <strong>Email</strong>
                             nicolasricardovegacardozo@gmail.com
-                        </li>
-                        <li>
-                            <strong>Website</strong>
-                            www.example.com
                         </li>
                         <li>
                             <strong>Direccion</strong>
@@ -132,7 +130,7 @@
                 </div>
             </div>
 
-            <button>
+            <button id="descargar-btn">
                 Descargar CV <i class="fa-solid fa-download"></i>
                 <span class="overlay"></span>
             </button>
@@ -224,9 +222,11 @@
                         <h4>Desarrollo Web</h4>
                         <span class="casa">Coderhouse</span>
                         <span class="fecha">10/2022 - 12/2022</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quam quos, earum inventore
-                            exercitationem, consequatur pariatur hic recusandae nesciunt qui eligendi atque sit esse
-                            sint ducimus illo quibusdam omnis ipsum?
+                        <p>En el curso de desarrollo web, aprendí a crear mi propio sitio web desde cero. Adquirí
+                            conocimientos en HTML, CSS y Bootstrap para desarrollar
+                            diseños responsivos y atractivos. También aprendí a optimizar mi sitio web para los motores
+                            de búsqueda (SEO) y a utilizar herramientas como GIT y SASS para mejorar la eficiencia en el
+                            desarrollo.
                         </p>
                         <div class="conectori">
                             <div class="circuloi"></div>
@@ -236,9 +236,10 @@
                         <h4>Javascript</h4>
                         <span class="casa">Coderhouse</span>
                         <span class="fecha">02/2023 - 04/2023</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quam quos, earum inventore
-                            exercitationem, consequatur pariatur hic recusandae nesciunt qui eligendi atque sit esse
-                            sint ducimus illo quibusdam omnis ipsum?
+                        <p>Adquirí los fundamentos necesarios para crear diversas aplicaciones. Exploré las herramientas
+                            del lenguaje y casos prácticos, además de estudiar jQuery y técnicas de desarrollo para
+                            aplicaciones modernas con AJAX. Estoy preparado para crear soluciones
+                            web interactivas y aplicar mis conocimientos en cualquier framework JavaScript.
                         </p>
                         <div class="conectori">
                             <div class="circuloi"></div>
@@ -248,9 +249,10 @@
                         <h4>React</h4>
                         <span class="casa">Coderhouse</span>
                         <span class="fecha">05/2023 - 07/2023</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quam quos, earum inventore
-                            exercitationem, consequatur pariatur hic recusandae nesciunt qui eligendi atque sit esse
-                            sint ducimus illo quibusdam omnis ipsum?
+                        <p>En el curso de React adquirí conocimientos sobre el manejo de rutas con Firebase y el
+                            desarrollo de aplicaciones utilizando React JS y el virtual DOM. Al finalizar el curso,
+                            estoy preparado para crear
+                            aplicaciones SPA y utilizar uno de los frameworks más populares y avanzados del momento.
                         </p>
                         <div class="conectori">
                             <div class="circuloi"></div>
@@ -260,9 +262,10 @@
                         <h4>Programación Backend</h4>
                         <span class="casa">Coderhouse</span>
                         <span class="fecha">07/2023 - Presente</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quam quos, earum inventore
-                            exercitationem, consequatur pariatur hic recusandae nesciunt qui eligendi atque sit esse
-                            sint ducimus illo quibusdam omnis ipsum?
+                        <p>En este curso, estoy aprendiendo a desarrollar aplicaciones modernas utilizando Node.js y MongoDB. Me
+                            sumergí en la programación del lado del servidor con JavaScript, aplicando técnicas
+                            asincrónicas para mejorar el rendimiento y el control de grandes volúmenes de datos y despliegue en
+                            diferentes plataformas web. 
                         </p>
                         <div class="conectori">
                             <div class="circuloi"></div>
@@ -300,39 +303,46 @@
             <h2>Portfolio</h2>
             <div class="galeria">
                 <div class="proyecto">
-                    <a href="https://github.com/NicolasVegaCardozo/PF-VegaCardozo-DesarrolloWeb"><img
-                            src="./img/foto1.png" alt="proyecto 1"></a>
-                    <div class="overlay">
-                        <h3>Germinar</h3>
-                        <p>Sitio web de comida vegetariana y vegana</p>
-                    </div>
+                    <img src="./img/foto1.png" alt="proyecto 1">
+                    <a href="https://github.com/NicolasVegaCardozo/PF-VegaCardozo-DesarrolloWeb">
+                        <div class="overlay">
+                            <h3>Germinar</h3>
+                            <p>Sitio web de comida vegetariana y vegana</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="proyecto">
-                    <a href="https://github.com/NicolasVegaCardozo/PF-VegaCardozo-JavaScript"><img src="./img/foto2.png"
-                            alt="proyecto 2"></a>
-                    <div class="overlay">
-                        <h3>Mundo Papel</h3>
-                        <p>Ecommerce de libreria escolar</p>
-                    </div>
+                    <img src="./img/foto2.png" alt="proyecto 2">
+                    <a href="https://github.com/NicolasVegaCardozo/PF-VegaCardozo-JavaScript">
+                        <div class="overlay">
+                            <h3>Mundo Papel</h3>
+                            <p>Ecommerce de libreria escolar</p>
+                        </div>
+                    </a>
+
                 </div>
                 <div class="proyecto">
-                    <a href="https://github.com/NicolasVegaCardozo/PF-VegaCardozo"><img src="./img/foto3.png"
-                            alt="proyecto 3"></a>
-                    <div class="overlay">
-                        <h3>Techhub</h3>
-                        <p>Ecommerce de articulos de computación</p>
-                    </div>
+                    <img src="./img/foto3.png" alt="proyecto 3">
+                    <a href="https://github.com/NicolasVegaCardozo/PF-VegaCardozo">
+                        <div class="overlay">
+                            <h3>Techhub</h3>
+                            <p>Ecommerce de articulos de computación</p>
+                        </div>
+                    </a>
                 </div>
             </div>
     </section>
 
-    <!-- SECCION CONTACTO -->
 
+    <!-- SECCION CONTACTO -->
+    <!--
     <section id="contacto" class="contacto">
         <div class="contenido-seccion">
             <h2>Contacto</h2>
             <div class="fila">
-                <!-- Formulario -->
+            -->
+    <!-- Formulario -->
+    <!--
                 <div class="col">
                     <input type="text" placeholder="Ingresa tu nombre">
                     <input type="text" placeholder="Numero de telefono">
@@ -344,7 +354,9 @@
                         <span class="overlay"></span>
                     </button>
                 </div>
-                <!-- Mapa -->
+            -->
+    <!-- Mapa -->
+    <!--
                 <div class="col">
                     <img src="./img/ubicacion.jpg" alt="">
                     <div class="info">
@@ -369,22 +381,23 @@
         </div>
 
     </section>
+-->
 
     <!-- footer -->
     <footer>
+        <h2>Conectar</h2>
         <a href="#inicio" class="arriba">
             <i class="fa-solid fa-angles-up"></i>
         </a>
         <div class="redes">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-skype"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="#"><i class="fa-solid fa-rss"></i></a>
+            <a href="https://www.linkedin.com/in/nicol%C3%A1s-vega-cardozo-b30a1a114/"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/NicolasVegaCardozo"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.freecodecamp.org/laenedenico"><i class="fa-brands fa-free-code-camp"></i></a>
         </div>
     </footer>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

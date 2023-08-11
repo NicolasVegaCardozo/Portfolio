@@ -29,3 +29,12 @@ const efectoHabilidades = () => {
         habilidades[6].classList.add("dedicacion");
     }
 }
+
+const botonDescargar = document.getElementById('descargar-btn');
+    botonDescargar.addEventListener('click', () => {
+        const urlDocumento = "./CV-Nicolas-Vega-Cardozo-Dev-Frontend.pdf"; // Reemplaza 'ruta_del_documento' con la ubicación real del archivo a descargar
+        const linkDescarga = document.createElement('a');
+        linkDescarga.href = urlDocumento;
+        linkDescarga.download = 'CV-Nicolas-Vega-Cardozo-Dev-Frontend'; // Puedes especificar un nombre personalizado para el archivo descargado
+        linkDescarga.click();
+    });
